@@ -1,0 +1,129 @@
+.container {
+  font-family: helvetica, sans-serif; }
+
+.container {
+  border: 4px solid #37393B;
+  width: 30%; }
+
+.container i {
+  margin-left: 16px; }
+
+ul {
+  list-style: none;
+  display: block;
+  padding-left: 0;
+  margin: 0; }
+  ul div {
+    display: inline-block;
+    float: right;
+    margin-right: 16px;
+    margin-top: 8px; }
+  ul .num {
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+    font-size: 14px;
+    vertical-align: middle; }
+
+.file-name {
+  padding-left: 50px; }
+
+.file-head {
+  padding-left: 44px; }
+
+.clear-fix {
+  clear: both; }
+
+.files-head,
+.mail-head,
+.cloud-head {
+  background: linear-gradient(top, #5F6067, #37393B);
+  background: -webkit-linear-gradient(top, #5F6067, #37393B);
+  background: -moz-linear-gradient(top, #5F6067, #37393B);
+  color: white; }
+
+li {
+  height: 40px;
+  border: 1px solid gray;
+  line-height: 40px;
+  background-color: #DFDFDF;
+  margin: 0 auto; }
+
+.files-head div,
+.mail-head div,
+.cloud-head div {
+  display: inline-block;
+  float: right;
+  margin-right: 16px;
+  margin-top: 8px; }
+
+.my-files,
+.mail,
+.cloud,
+.sign-out {
+  line-height: 40px;
+  border: 1px solid gray; }
+
+.files-head:hover,
+.mail-head:hover,
+.cloud-head:hover,
+.sign-out:hover {
+  background: linear-gradient(top, #87B72A, #5B840B);
+  background: -webkit-linear-gradient(top, #87B72A, #5B840B);
+  background: -moz-linear-gradient(top, #87B72A, #5B840B);
+  color: #37393B; }
+
+.count {
+  line-height: 22px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 40px;
+  text-align: center; }
+
+.sign-out {
+  background: linear-gradient(top, #5F6067, #37393B);
+  background: -webkit-linear-gradient(top, #5F6067, #37393B);
+  background: -moz-linear-gradient(top, #5F6067, #37393B);
+  color: white; }
+
+.active {
+  background: linear-gradient(top, #87B72A, #5B840B);
+  background: -webkit-linear-gradient(top, #87B72A, #5B840B);
+  background: -moz-linear-gradient(top, #87B72A, #5B840B);
+  color: #37393B; }
+
+.mail ul li {
+  line-height: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 0; }
+  .mail ul li div {
+    line-height: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0; }
+  .mail ul li span {
+    font-size: 0; }
+
+.cloud ul li {
+  line-height: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 0; }
+  .cloud ul li div {
+    line-height: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0; }
+  .cloud ul li span {
+    font-size: 0; }
+
+/*# sourceMappingURL=main.css.map */
